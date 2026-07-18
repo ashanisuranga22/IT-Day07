@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Guess The Number</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="box">
+
+        <h1>Guess The Number</h1>
+
+        <p>Guess a number between 1 and 10</p>
+
+        <input type="number" id="number">
+
+        <br><br>
+
+        <button onclick="checkNumber()">
+            Guess
+        </button>
+
+        <p id="attempt">Attempts Left : 3</p>
+
+        <h3 id="result"></h3>
+
+        <button onclick="newGame()">
+            New Game
+        </button>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
+
+    
