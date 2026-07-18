@@ -1,10 +1,10 @@
-var randomNumber = Math.floor(Math.random() * 10) + 1;
+let randomNumber = Math.floor(Math.random() * 10) + 1;
 
-var attempts = 3;
+let attempts = 3;
 
 function checkNumber(){
 
-    var userNumber = document.getElementById("number").value;
+    let userNumber = document.getElementById("number").value;
 
     if(userNumber < 1 || userNumber > 10){
 
